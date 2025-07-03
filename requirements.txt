@@ -1,0 +1,9 @@
+pandas
+sqlalchemy
+psycopg2-binary
+pymongo
+faker
+matplotlib
+seaborn
+scikit-learn
+jupyter
