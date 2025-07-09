@@ -52,7 +52,7 @@ if __name__ == "__main__":
     # Erzeuge Daten für 30 Tage, alle 6 Stunden ein Eintrag
     start = datetime.now() - timedelta(days=30)
     intervall = timedelta(hours=6)
-    anzahl = 120  # 4 Einträge pro Tag * 30 Tage
+    anzahl = 30  # 4 Einträge pro Tag * 30 Tage
 
     daten = generiere_logistikdaten(lager, bananensorten, lieferanten, start, intervall, anzahl)
 
